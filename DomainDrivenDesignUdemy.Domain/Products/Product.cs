@@ -1,10 +1,14 @@
-﻿using DomainDrivenDesignUdemy.Domain.Categories;
+﻿using DomainDrivenDesignUdemy.Domain.Abstractions;
+using DomainDrivenDesignUdemy.Domain.Categories;
 
 namespace DomainDrivenDesignUdemy.Domain.Products;
 
-public sealed class Product // sealed: no other class can inherit from this class
+public sealed class Product : Entity // sealed: no other class can inherit from this class
 {
-    public Guid Id { get; set; }
+    public Product(Guid id) : base(id)
+    {
+    }
+
     public string Name { get; set; }
     public int Quantity { get; set; }
     public decimal Price { get; set; }

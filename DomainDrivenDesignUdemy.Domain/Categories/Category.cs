@@ -1,10 +1,14 @@
-﻿using DomainDrivenDesignUdemy.Domain.Products;
+﻿using DomainDrivenDesignUdemy.Domain.Abstractions;
+using DomainDrivenDesignUdemy.Domain.Products;
 
 namespace DomainDrivenDesignUdemy.Domain.Categories;
 
-public class Category
+public sealed class Category : Entity
 {
-    public Guid Id { get; set; }
+    public Category(Guid id) : base(id)
+    {
+    }
+
     public string Name { get; set; }
     public ICollection<Product> Products { get; set; }
 }
