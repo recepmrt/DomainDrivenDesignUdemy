@@ -34,3 +34,8 @@ Practical recommendations
 Why this matters
 - Enforcing invariants in the aggregate root reduces bugs and keeps business rules central.
 - Treating `Order` as the single entry point for changes keeps the model consistent and easier to reason about when implementing persistence and business rules.
+
+
+### Repositories
+Aggregate roots are used to store and retrieve data from persistent storage mechanisms. Their primary purpose is to provide a separation between business logic and data access logic. This allows the business logic code to be abstracted from storage mechanisms (e.g., database, web service, etc.).
+
