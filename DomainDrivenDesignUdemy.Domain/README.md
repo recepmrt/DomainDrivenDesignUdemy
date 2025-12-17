@@ -39,3 +39,5 @@ Why this matters
 ### Repositories
 Aggregate roots are used to store and retrieve data from persistent storage mechanisms. Their primary purpose is to provide a separation between business logic and data access logic. This allows the business logic code to be abstracted from storage mechanisms (e.g., database, web service, etc.).
 
+### Domain Events
+Events representing specific business occurrences and typically triggered by a change in status
