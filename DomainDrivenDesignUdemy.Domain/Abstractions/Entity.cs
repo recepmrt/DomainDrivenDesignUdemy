@@ -9,4 +9,3 @@ public abstract class Entity
         Id = id;
     }
 }
-

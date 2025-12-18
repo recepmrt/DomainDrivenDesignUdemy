@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesignUdemy.Domain", "DomainDrivenDesignUdemy.Domain\DomainDrivenDesignUdemy.Domain.csproj", "{117E22DF-EEDA-44A8-90CB-D8071ACC390D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesign.Application", "DomainDrivenDesign.Application\DomainDrivenDesign.Application.csproj", "{E62B5AA3-281C-45A5-B6E4-980BB112AC69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{117E22DF-EEDA-44A8-90CB-D8071ACC390D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{117E22DF-EEDA-44A8-90CB-D8071ACC390D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{117E22DF-EEDA-44A8-90CB-D8071ACC390D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62B5AA3-281C-45A5-B6E4-980BB112AC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62B5AA3-281C-45A5-B6E4-980BB112AC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62B5AA3-281C-45A5-B6E4-980BB112AC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62B5AA3-281C-45A5-B6E4-980BB112AC69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
