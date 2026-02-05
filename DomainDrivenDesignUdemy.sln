@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesignUdemy.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesignUdemy.Application", "DomainDrivenDesignUdemy.Application\DomainDrivenDesignUdemy.Application.csproj", "{02E6FDC0-0112-4DD7-8B95-F72EBAEE47BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesignUdemy.Infrastructure", "DomainDrivenDesignUdemy.Infrastructure\DomainDrivenDesignUdemy.Infrastructure.csproj", "{0028B1F2-F817-4E00-BF87-6AD553D91367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{02E6FDC0-0112-4DD7-8B95-F72EBAEE47BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E6FDC0-0112-4DD7-8B95-F72EBAEE47BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E6FDC0-0112-4DD7-8B95-F72EBAEE47BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0028B1F2-F817-4E00-BF87-6AD553D91367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0028B1F2-F817-4E00-BF87-6AD553D91367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0028B1F2-F817-4E00-BF87-6AD553D91367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0028B1F2-F817-4E00-BF87-6AD553D91367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
